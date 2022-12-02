@@ -6,12 +6,12 @@ let numBase = parseInt(prompt('Digite um numero: '));
 let numTotal = [];
 let soma = numBase * 3;
 
- while (soma  < 500) {
+ while (soma < 500) {
     
     
     numTotal.push(soma);
     soma++;
-    console.log(numTotal);
+    // console.log(numTotal);
  
     var lastNum = numTotal.pop();
 
